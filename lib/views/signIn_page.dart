@@ -24,7 +24,6 @@ class SignInPage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               TextFormField(
-                ///
                 keyboardType: TextInputType.phone,
                 controller: phoneController,
                 decoration: InputDecoration(
